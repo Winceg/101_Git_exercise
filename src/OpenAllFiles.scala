@@ -8,5 +8,5 @@ object OpenAllFiles extends App {
     println(s"fileName:$fileName")
     s += scala.io.Source.fromFile(fileName.toFile).mkString+","
   }
-  println(s"s:$s")
+  println(s"s:$s"}
 }
